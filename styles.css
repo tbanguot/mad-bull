@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header, .extra-info {
+    background-image: linear-gradient(to right, orange, rgb(247, 222, 3));
+    padding: 20px;
+    color: white;
+}
+.info, .main, .title, footer {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.extra-info {
+    height: auto;
+}
+
+.title {
+    font-size: 48px;
+
+}
+
+h2 {
+    font-size: 36px;
+    color: orangered;
+}
+
+.highlight {
+    color: #2E354F;
+    font-weight: bold;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 4px;
+  text-align: center;
+}
+.btn-link:hover, .btn-link:focus  {
+  background-color: white;
+  color: orange;
+}
+
+
+footer {
+    color: grey;
+}
+
